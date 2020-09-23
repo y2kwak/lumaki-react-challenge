@@ -1,12 +1,10 @@
 import React from 'react';
 import Card from './Card.js';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-
         <Card
           name="Lumaki Labs Inc."
           position="Software Engineer Intern"
@@ -14,7 +12,7 @@ function App() {
           duration="2-months"
           level="Intermediate"
           date="Oct 1, 2020 EDT"
-          logo=""
+          logo="src/lumaki.png"
 
         />
 
@@ -27,7 +25,6 @@ function App() {
         date="Oct 1, 2020 EDT"
         logo=""
         />
-
  
     </div>
   );

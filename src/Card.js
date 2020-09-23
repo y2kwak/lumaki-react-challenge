@@ -3,8 +3,10 @@ import './Card.css';
 
 function Card(props){
     return (
+        <div>
         <div className="card">
             <div className="card-inner">
+            <img src={props.logo}/>
             <h1>
                 {props.name}
             </h1>
@@ -27,7 +29,7 @@ function Card(props){
             <p style={{textAlign: 'right'}}><i>Learn more</i></p>
             </div>
             
-        </div>
+        </div></div>
     )
 }
 export default Card
