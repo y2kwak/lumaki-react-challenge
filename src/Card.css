@@ -1,0 +1,56 @@
+.card {
+    background: #4B4B4B;
+    display: block;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    min-height: 400px;
+    max-width: 300px;
+    border-radius: 5%;
+    text-align: left;
+    box-shadow: 5px 10px #888888;
+}
+/* text in card */
+.card-inner {
+    padding: 2rem;
+}
+.card h1{
+    font-size: medium;
+    text-transform: uppercase;
+    margin-block-end: 0.3em;
+}
+
+.card h2{
+    font-style: italic;
+    font-size: medium;
+    margin-block-start: 0.3em;
+
+}
+
+.card p{
+    font-size: small;
+    font-weight: 100;
+    word-wrap: break-word;
+}
+
+.tag{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    align-items: center;
+    height: 30px;
+
+}
+.tag-title{
+    grid-column: 1 / 3; 
+}
+
+.tag #tag{
+    background: #ffffff40;
+    grid-column-start: 4;
+    font-weight: 100;
+    font-size: 0.7rem;
+    width: 90px;
+    height: 22px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 10px;
+}
