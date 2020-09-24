@@ -15,7 +15,7 @@ function Card(props){
                 <h1>{props.job.title}</h1>
                 <h2>{props.job.position}</h2>
                 <p className="description">{props.job.description}</p>
-                <div style={{'marginBottom': '25px'}}>
+                <div style={{'marginBottom': '20px'}}>
                     <div className="grid">
                         <p className="tag-title">Duration: </p>
                         <p id="tag">{props.job.duration}</p>
