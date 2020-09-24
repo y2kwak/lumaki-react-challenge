@@ -1,3 +1,7 @@
+.spacing {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
 .card {
     background: #4B4B4B;
     display: block;
@@ -28,6 +32,9 @@
 
 .card p{
     font-size: small;
+}
+
+.description{
     font-weight: 100;
     word-wrap: break-word;
 }
@@ -35,36 +42,40 @@
 .card-img {
     width: 100%;
     background-size: contain;
-    height: 64px;
+    height: 70px;
+    justify-content: center;
+    background-repeat: no-repeat;
+    align-self: center;
 }
 
-.tag{
+.card a{
+    font-size: small;
+    color: white;
+    text-decoration: none;
+    text-align: right;
+}
+
+/* tag display */
+.grid{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     align-items: center;
     height: 28px;
-    
-
+    vertical-align: middle;
 }
 .tag-title{
     grid-column: 1 / 3; 
-    font-weight: 300;
+    font-style: bold;
 }
 
-.tag #tag{
+.grid #tag{
     background: #ffffff40;
     grid-column-start: 4;
-    vertical-align: middle;
     font-weight: 100;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     width: 90px;
     height: 22px;
     text-align: center;
     border-radius: 10px;
+    display: inline;
 }
-
-#tag p {
-    vertical-align: middle;
-    margin-block-start: 0;
-    margin-block-end: 0;
-}    

@@ -7,7 +7,7 @@
       "duration": "2-months",
       "level":"Intermediate",
       "date": "Oct 1, 2020 EDT",
-      "logo": "../public/LumakiLabs_White_Lg (1).png"
+      "logo": "/static/media/lumaki-logo.19c0a241.png"
    }, {
       "id": 2,
       "title": "University of Toronto",
@@ -16,7 +16,7 @@
       "duration": "4-months",
       "level":"Beginner",
       "date": "Jan. 1, 2020 EDT",
-      "logo": "../public/LumakiLabs_White_Lg (1).png"
+      "logo": ""
    }
    ]
  
