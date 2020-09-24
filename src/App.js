@@ -24,7 +24,10 @@ function App() {
 
   return (
     <div className="App">
+      <h2>React Challenge</h2>
       {content}
+      <p>by Yewon Kwak</p>
+
     </div>
   );
 }
