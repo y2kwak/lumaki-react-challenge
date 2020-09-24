@@ -9,7 +9,7 @@ function Card(props){
                 <div
                     className="card-img"
                     style={{
-                        'backgroundImage': `url('${props.job.logo}')`,
+                        'backgroundImage': `url('${props.logo}')`, 
                     }}
                 ></div>
                 <h1>{props.job.title}</h1>

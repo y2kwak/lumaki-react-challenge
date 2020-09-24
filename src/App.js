@@ -2,6 +2,7 @@ import React from 'react';
 import Card from './Card.js';
 import './App.css';
 import jobs from './jobs.json';
+import logo from './lumaki-logo.png'
 
 function App() {
   let content = null
@@ -13,6 +14,7 @@ function App() {
       <div key={job.id}>
         <Card 
           job={job}
+          logo={logo} // this acts as a place holder
         />
       </div>
     )
