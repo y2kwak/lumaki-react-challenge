@@ -12,17 +12,17 @@ function App() {
           duration="2-months"
           level="Intermediate"
           date="Oct 1, 2020 EDT"
-          logo="src/lumaki.png"
+          logo="../public/LumakiLabs_White_Lg (1).png"
 
         />
 
         <Card
         name="University of Toronto"
         position="UX/UI Design Intern"
-        description="As a software engineer at Lumaki Labs Inc, you will work with a creative team and a senior engineer to build out the front end…"
-        duration="2-months"
-        level="Intermediate"
-        date="Oct 1, 2020 EDT"
+        description="As a UX/UI Design at the University of Toronto, you will work directly with professors and researchers to find insights into remote..."
+        duration="4-months"
+        level="Beginner"
+        date="Jan. 1, 2020 EDT"
         logo=""
         />
  

@@ -6,7 +6,12 @@ function Card(props){
         <div>
         <div className="card">
             <div className="card-inner">
-            <img src={props.logo}/>
+            <div
+                style={{
+                    'backgroundImage': `url('${props.logo}')`,
+                }}
+                className="card-img"
+            ></div>
             <h1>
                 {props.name}
             </h1>
